@@ -16,7 +16,7 @@ export default function Profile() {
       <p className="max-w-[8.75rem] text-sm leading-snug">
         {`Olá, ${name}`}
         <a
-          href=""
+          href="/api/auth/logout"
           className="block text-red-400 transition-colors hover:text-red-300"
         >
           Quero sair
